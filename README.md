@@ -1,0 +1,1 @@
+```nodemon --watch "./**" --ext "ts,json" --ignore "src/**/*.spec.ts" --exec "ts-node 01-introduction/binary_search.ts"```
