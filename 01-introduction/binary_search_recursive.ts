@@ -20,7 +20,7 @@
     }
 
     if (guess > item) {
-      return recursiveBinarySearch(array, item, minIndex, mid);
+      return recursiveBinarySearch(array, item, minIndex + 1, mid);
     }
 
     if (guess < item) {
